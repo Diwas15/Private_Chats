@@ -3,7 +3,7 @@
     "name": "blank",
     "slug": "blank",
     "splash": {
-      "image": "./app/assets/splashscreen_background.png",
+      "image": "./app/assets/images/splashscreen_background.png",
       "backgroundColor": "#ffffff"
      },
     "version": "1.0.0",
