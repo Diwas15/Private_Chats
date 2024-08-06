@@ -4,6 +4,7 @@ import { useState, useEffect} from "react";
 import { userContext } from "./Contexts/UserContext";
 import HomeScreen from "./Screens/HomeScreen";
 import {socket} from "./socket";
+import { registerRootComponent } from 'expo';
 
 
 export default function App() {
@@ -56,4 +57,8 @@ const styles = StyleSheet.create({
     backgroundColor:'white',   
   }
   }
-)
+);
+
+
+registerRootComponent(App);
+

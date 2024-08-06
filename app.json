@@ -8,6 +8,14 @@
       "android",
       "web"
     ],
-    "orientation":"portrait"
+    "orientation": "portrait",
+    "extra": {
+      "eas": {
+        "projectId": "a798eb8f-40d4-4c73-b839-8fc4a07c23d4"
+      }
+    },
+    "android": {
+      "package": "com.satidiwas.chatss"
+    }
   }
 }

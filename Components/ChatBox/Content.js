@@ -13,7 +13,6 @@ const Content = () => {
     const [id,setId] = useState(0);
     
     function getOldMessages(e){
-        console.log(scrollViewRef.current.contentOffset)
         fetch('https://privatechats-backend1.onrender.com/getOldMessages',{
             method:'POST',
             body:JSON.stringify({
